@@ -14,7 +14,6 @@
 		8D8E8C731A56E7AC00A40F27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8E8C721A56E7AC00A40F27 /* Images.xcassets */; };
 		8D8E8C761A56E7AC00A40F27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8E8C741A56E7AC00A40F27 /* LaunchScreen.xib */; };
 		8D8E8C821A56E7AC00A40F27 /* SamplePodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8E8C811A56E7AC00A40F27 /* SamplePodTests.m */; };
-		8D8E8C911A56ED5500A40F27 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8E8C901A56ED5500A40F27 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +40,6 @@
 		8D8E8C7B1A56E7AC00A40F27 /* SamplePodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8E8C801A56E7AC00A40F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D8E8C811A56E7AC00A40F27 /* SamplePodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamplePodTests.m; sourceTree = "<group>"; };
-		8D8E8C8F1A56ED5500A40F27 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = SOURCE_ROOT; };
-		8D8E8C901A56ED5500A40F27 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +81,6 @@
 		8D8E8C641A56E7AC00A40F27 /* SamplePod */ = {
 			isa = PBXGroup;
 			children = (
-				8D8E8C8F1A56ED5500A40F27 /* TestClass.h */,
-				8D8E8C901A56ED5500A40F27 /* TestClass.m */,
 				8D8E8C691A56E7AC00A40F27 /* AppDelegate.h */,
 				8D8E8C6A1A56E7AC00A40F27 /* AppDelegate.m */,
 				8D8E8C6C1A56E7AC00A40F27 /* ViewController.h */,
@@ -224,7 +219,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D8E8C911A56ED5500A40F27 /* TestClass.m in Sources */,
 				8D8E8C6E1A56E7AC00A40F27 /* ViewController.m in Sources */,
 				8D8E8C6B1A56E7AC00A40F27 /* AppDelegate.m in Sources */,
 				8D8E8C681A56E7AC00A40F27 /* main.m in Sources */,
