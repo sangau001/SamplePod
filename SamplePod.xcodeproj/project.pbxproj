@@ -14,6 +14,8 @@
 		8D8E8C731A56E7AC00A40F27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8E8C721A56E7AC00A40F27 /* Images.xcassets */; };
 		8D8E8C761A56E7AC00A40F27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8E8C741A56E7AC00A40F27 /* LaunchScreen.xib */; };
 		8D8E8C821A56E7AC00A40F27 /* SamplePodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8E8C811A56E7AC00A40F27 /* SamplePodTests.m */; };
+		8D8E8C8D1A56E97B00A40F27 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8D8E8C8B1A56E97B00A40F27 /* LICENSE */; };
+		8D8E8C8E1A56E97B00A40F27 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D8E8C8C1A56E97B00A40F27 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		8D8E8C7B1A56E7AC00A40F27 /* SamplePodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8E8C801A56E7AC00A40F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D8E8C811A56E7AC00A40F27 /* SamplePodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamplePodTests.m; sourceTree = "<group>"; };
+		8D8E8C8B1A56E97B00A40F27 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8D8E8C8C1A56E97B00A40F27 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 		8D8E8C591A56E7AC00A40F27 = {
 			isa = PBXGroup;
 			children = (
+				8D8E8C8B1A56E97B00A40F27 /* LICENSE */,
+				8D8E8C8C1A56E97B00A40F27 /* README.md */,
 				8D8E8C641A56E7AC00A40F27 /* SamplePod */,
 				8D8E8C7E1A56E7AC00A40F27 /* SamplePodTests */,
 				8D8E8C631A56E7AC00A40F27 /* Products */,
@@ -201,6 +207,7 @@
 			files = (
 				8D8E8C711A56E7AC00A40F27 /* Main.storyboard in Resources */,
 				8D8E8C761A56E7AC00A40F27 /* LaunchScreen.xib in Resources */,
+				8D8E8C8D1A56E97B00A40F27 /* LICENSE in Resources */,
 				8D8E8C731A56E7AC00A40F27 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +228,7 @@
 			files = (
 				8D8E8C6E1A56E7AC00A40F27 /* ViewController.m in Sources */,
 				8D8E8C6B1A56E7AC00A40F27 /* AppDelegate.m in Sources */,
+				8D8E8C8E1A56E97B00A40F27 /* README.md in Sources */,
 				8D8E8C681A56E7AC00A40F27 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +422,7 @@
 				8D8E8C871A56E7AC00A40F27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D8E8C881A56E7AC00A40F27 /* Build configuration list for PBXNativeTarget "SamplePodTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				8D8E8C8A1A56E7AC00A40F27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
